@@ -8,8 +8,17 @@ body {
 }
 
 h1{
-    color: rgb(208, 0, 255);
+    color: rgb(255, 255, 255);
 }
+
+h2{
+    color: #f80e0e;
+}
+
+.header{
+    text-align: top;
+}
+
 /* Containers */
 .container {
     width: 100%;
@@ -23,7 +32,7 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: red;
     z-index: 1; /* Ensure the line is above other content */
 }
@@ -35,7 +44,7 @@ h1{
     position: absolute;
     top: 0;
     left: 50%;
-    width: 2px;
+    width: 3px;
     height: 100%;
     background-color: red;
     z-index: 1; /* Ensure the line is above other content */
@@ -49,7 +58,7 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     transform: rotate(45deg); /* Rotate the line to 45 degrees */
     background-color: blue;
     z-index: 1; /* Ensure the line is above other content */
@@ -63,7 +72,7 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     transform: rotate(135deg); /* Rotate the line to 135 degrees */
     background-color: blue;
     z-index: 2; /* Ensure the line is above other content */
@@ -76,9 +85,9 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1px;
     transform: rotate(22.5deg); /* Rotate the line to 45 degrees */
-    background-color: violet;
+    background-color: rgba(238, 130, 238, 0.497);
     z-index: 1; /* Ensure the line is above other content */
 }
 
@@ -90,9 +99,9 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1px;
     transform: rotate(157.5deg); /* Rotate the line to 135 degrees */
-    background-color: violet;
+    background-color: rgba(238, 130, 238, 0.497);
     z-index: 2; /* Ensure the line is above other content */
 }
 
@@ -103,9 +112,9 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1px;
     transform: rotate(67.5deg); /* Rotate the line to 45 degrees */
-    background-color: rgb(208, 255, 0);
+    background-color: rgba(208, 255, 0, 0.43);
     z-index: 1; /* Ensure the line is above other content */
 }
 
@@ -117,9 +126,9 @@ h1{
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 1px;
     transform: rotate(112.5deg); /* Rotate the line to 135 degrees */
-    background-color: rgb(208, 255, 0);
+    background-color: rgba(208, 255, 0, 0.43);
     z-index: 2; /* Ensure the line is above other content */
 }
 
@@ -130,7 +139,7 @@ h1{
 
 .img-container {
     position: absolute;
-    top: 61%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -70%);
 }
